@@ -8,16 +8,17 @@ class JumpBox:
         self.color = (randint(25, 255), randint(25, 255), randint(25, 255))
         self.box_size = box_size
         self.speed = speed
+        # the surface that is passed is used as a bounding box
         self.max_width = Surface.get_width(self.surface)
         self.max_height = Surface.get_height(self.surface)
+        # x, y start positions and starting directions
         self.x_pos = randint(0, self.max_width)
         self.x_rev = choice([True, False])
         self.y_pos = randint(0, self.max_height)
         self.y_rev = choice([True, False])
         self.box_hit = False
-        self.color_list = []
-        for c in range(14):
-            self.color_list.append((randint(25, 255), randint(25, 255), randint(25, 255)))
+        # boxes change color when they bounce and choose a color from here
+        self.color_list = [(randint(25, 255), randint(25, 255), randint(25, 255)) for _ in range(14)]
 
     def jbox_update(self):
         # left and right movement
