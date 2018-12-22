@@ -6,5 +6,8 @@ replenished when you touch a platform. Avoid touching the bouncing boxes and try
 
 Future:
 - high score tracking
+- main menu
 - background img
 - music
+
+![Screen shot](https://imgur.com/NalYGfH)
