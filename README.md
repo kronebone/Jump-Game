@@ -10,4 +10,4 @@ Future:
 - background img
 - music
 
-![Screen shot](https://imgur.com/NalYGfH)
+![Screen Shot](https://user-images.githubusercontent.com/25714589/50378578-78a10d80-0603-11e9-81ce-9ff23cb2805a.JPG)
